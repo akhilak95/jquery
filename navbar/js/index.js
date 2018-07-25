@@ -44,7 +44,7 @@ $(document).ready( () => {
         $(".pricing").removeClass("content");
         $(".searchbutton").removeClass("border");
          $id= $("#search");
-     $id.val("");
+         $id.val("");
 
       })
       $("#search").hover(() =>{
@@ -54,4 +54,22 @@ $(document).ready( () => {
         $(".search").removeClass("searchcontent");
         $(".searchbutton").removeClass("border");
       })
+      $("#downbar").click(() =>{
+        $(".downbarcontent").show(1);
+        $(".down").show(1)
+        $(".m").addClass("sea")
+        $(".downbar2").show(1)
+        $("#downbar").hide(1)
+      })
+      $(".downbar2").click(() =>{
+        $(".downbarcontent").hide(1);
+        $(".down").hide(1)
+        $(".m").removeClass("sea")
+        $(".downbar2").hide(1)
+        $("#downbar").show(1)
+
+      })
+
+        
+      
 })

@@ -1,0 +1,194 @@
+@media only screen and (min-width: 725px) and (max-width: 1024px) 
+{
+.navbar{
+width: 10vw;
+padding-top: 2vh;
+padding-left: 5px;
+margin-right: 25px;
+font-size: 15rem;
+}
+.navcontent{
+width: 8vw;
+padding-left: 1vw;
+padding-top: 3.5vh;
+font-size: 10rem;
+}
+.downbar{
+display: none;
+}
+.downbar2{
+display: none;
+}
+.searchbox{
+margin-top: 2vh;
+padding-left: 4vw;
+height: 12vh;
+}
+.searchbutton{
+width: 9vw;
+height: 22px;
+padding-left: 3px;
+padding-top: 7px;
+padding-bottom: 9px;
+font-size: 10rem;
+margin-top: 10px;
+}
+.search{
+width:30vw;
+height: 7vh;
+}
+
+}
+@media only screen and (min-width: 500px) and (max-width: 725px) 
+{
+.container{
+height: 9vh;
+}
+.navbar{
+width: 8vw;
+padding-top: 3vh;
+padding-left: 5px;
+margin-right: 6px;
+font-size: 9rem;
+}
+.navcontent{
+width: 8vw;
+padding-left: 5vw;
+padding-top: 3vh;
+font-size: 9rem;
+}
+.downbar{
+display: none;
+}
+.downbar2{
+display: none;
+}
+.searchbox{
+margin-top: 2vh;
+padding-left: 3vw;
+height: 12vh;
+}
+.searchbutton{
+width: 11vw;
+height: 10px;
+padding-left: 2px;
+padding-top: 7px;
+padding-bottom: 9px;
+font-size: 7rem;
+margin-top: 10px;
+margin-left: 1vw;
+}
+.search{
+width:21vw;
+height: 5vh;
+}
+input[type="search"]
+{
+font-size:15px;
+}
+
+}
+@media only screen and (min-width: 390px) and (max-width: 500px) 
+{
+.container{
+height: 20vh;
+flex-wrap: wrap;
+}
+.navbar{
+width: 10vw;
+padding-top: 3vh;
+padding-left: 5px;
+margin-right:1px;
+font-size: 11rem;
+}
+.navcontent{
+display: none;
+}
+.downbar{
+font-size: 25px;
+display: block;
+padding-left: 73vw;
+margin-top: 15px;
+color: white;
+}
+.downbar2{
+font-size: 25px;
+display: none;
+margin-top: 15px;
+margin-left: -4vw;
+color:white;
+}
+.searchbox{
+padding-left: 1vw;
+height: 12vh;
+}
+.searchbutton{
+width: 11vw;
+height: 10px;
+padding-left: 2px;
+padding-top: 8px;
+padding-bottom: 9px;
+font-size: 7rem;
+margin-left: 1vw;
+}
+.search{
+width:77vw;
+height: 5vh;
+}
+input[type="search"]
+{
+font-size:15px;
+}
+}
+@media only screen  and (max-width: 390px) 
+{
+.container{
+height: 17vh;
+flex-wrap: wrap;
+}
+.navbar{
+width: 5vw;
+padding-top: 3vh;
+padding-left: 5px;
+margin-right:12px;
+font-size: 8rem;
+}
+.navcontent{
+display: none;
+}
+.downbar{
+font-size: 23px;
+display: block;
+padding-left: 71vw;
+margin-top: 15px;
+color: white;
+}
+.downbar2{
+font-size: 25px;
+display:none;
+margin-top: 15px;
+margin-left: -4vw;
+color:white;
+}
+.searchbox{
+padding-left: 2vw;
+height: 6vh;
+}
+.searchbutton{
+width: 15vw;
+height: 9px;
+padding-left: 2px;
+padding-top: 5px;
+padding-bottom: 9px;
+font-size: 7rem;
+margin-left: 5px;
+}
+.search{
+width:70vw;
+height: 5vh;
+}
+input[type="search"]
+{
+font-size:20px;
+}
+}
