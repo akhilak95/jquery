@@ -1,0 +1,46 @@
+@media only screen and (max-width: 1024px){
+
+.column{
+margin-top: 8vw;
+margin-left: 15vw;
+border-width: 1px;
+width: 70vw;
+}
+.container{
+width: 69vw;
+height: 8vw;
+font-size: 20rem;
+border-bottom-width: 1px;
+
+}
+.arrow{
+margin-left: 42vw;
+font-size: 25rem;
+}
+.contain{
+width: 69vw;
+height: 10vw;
+font-size: 13rem;
+}
+.con1{
+margin-top: 7vw;
+}
+.con2a{
+margin-top: 16vw;
+}
+.con3a{
+margin-top: 24vw;
+}
+.con4a{
+margin-top: 32vw;
+}
+.arrowup{
+
+margin-left: 42vw;
+font-size: 25rem;
+}
+.cont{
+margin-top: 11vw;
+}
+
+}

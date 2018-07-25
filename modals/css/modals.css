@@ -1,0 +1,496 @@
+:root{
+font-size:2px;
+}
+.container{
+width: 90vw;
+height: 90vh;
+margin-left: 4vw;
+margin-top: 5vh;
+border-color: black;
+border-style: solid;
+border-width: 1px;
+font-size: 60px;
+background-color: #3C4C55;
+}
+.row{
+margin-top: 8vh;
+display: flex;
+flex-direction: row;
+height: 10vh;
+}
+.face{
+margin-left: 20vw;
+width: 50vw;
+padding-top: 5px;
+border-style: solid;
+border-width: 2px;
+border-color: #3C4C55;
+font-size: 20px;
+text-align: center;
+background-color: #3B5998;
+color: white;
+}
+.facebook{
+width: 2vw;
+height: 2vw;
+padding-top: 1vh;
+margin-left:  -0vw;
+padding-right: 2vw;
+}
+.twit{
+width: 2vw;
+height: 2vw;
+padding-top: 1vh;
+margin-left:  -0vw;
+padding-right: 1vw;
+}
+.twitter{
+margin-right: 20vw;
+margin-left: -5px;
+padding-top: 1vh;
+width: 50vw;
+border-style: solid;
+border-width: 2px;
+border-color:  #3C4C55;
+font-size: 20px;
+text-align: center;
+color: white;
+background-color: #55ACEE;
+}
+.col{
+font-size: 14rem;
+padding-left: 39vw;
+color: white;
+padding-top: 15px;
+}
+input[type="firstname"]{
+margin-left: 20vw;
+width: 23vw;
+height: 4vw;
+padding-left: 25px;
+color:#666666;
+font-size: 10rem;
+}
+input[type="lastname"]{
+width: 22.5vw;
+height: 4vw;
+margin-left: -5px;
+padding-left: 25px;
+color:#666666;
+font-size: 10rem;
+}
+input[type="email"]{
+margin-left: 20vw;
+width: 48.5vw;
+height: 4vw;
+padding-left: 25px;
+color:#666666;
+font-size: 10rem;
+}
+input[type="password"]{
+margin-left: 20vw;
+width: 48.5vw;
+height: 4vw;
+padding-left: 25px;
+color:#666666;
+font-size: 10rem;
+}
+.cond{
+font-size: 10rem;
+margin-top: 25px;
+margin-left: 20vw;
+color: white;
+}
+.button{
+margin-top: 4vh;
+margin-left: 20vw;
+width: 50vw;
+height: 5vw;
+background-color: #40A46F;
+font-size: 20rem;
+color: white;
+}
+.con{
+width: 50vw;
+height: 20vw;
+margin-left: 20vw;
+border-radius: 10px;
+position:fixed;
+background-color:#ffffff;
+}
+.mess{
+position:fixed;
+display: flex;
+flex-direction: row;
+}
+.mescont{
+font-size: 15rem;
+padding-left: 2vw;
+padding-top: 2vh;
+color: blue;
+}
+.cross{
+margin-left: 38vw;
+font-size: 20rem;
+margin-top: -8px;
+}
+.line{
+margin-top:10vh;
+border-width: 1px;
+border-style: solid;
+border-color: grey;
+}
+.content{
+margin-left: 1vw;
+font-size: 20rem;
+padding-top: 5vh;
+font-weight: bold;
+}
+.but{
+display: flex;
+flex-direction: row;
+}
+.yes{
+margin-left: 38vw;
+margin-top: 3vh;
+font-size: 10rem;
+border-radius: 5px;
+background-color:#3B5998;
+color: white;
+border-width: 2px;
+border-style: solid;
+border-color:#3B5998;
+}
+.no{
+margin-left: 40vw;
+margin-top: 3vh;
+font-size: 10rem;
+margin-left:3vw;
+border-radius: 5px;
+border-width: 2px;
+background-color: grey;
+color: white;
+border-width: 2px;
+border-style: solid;
+border-color:grey;
+}
+.formfocus{
+border-width: 3px;
+border-color: #ADDFFF;
+box-shadow: -3px 4px 16px -2px;
+}
+.butback{
+border-width: 4px;
+}
+.crossbac{
+color: blue;
+font-size: 22rem;
+}
+@media only screen and (min-width: 725px) and (max-width: 1024px) {
+.face{
+margin-left: 15vw;
+font-size: 18px;
+}
+.twitter{
+margin-right: 15vw;
+font-size: 18px;
+}
+.col{
+font-size: 13rem;
+padding-left: 33vw;
+padding-top: 7px;
+}
+input[type="firstname"]{
+margin-left: 15vw;
+width: 26vw;
+height: 5vw;
+padding-left: 20px;
+}
+input[type="lastname"]{
+width: 27.5vw;
+height: 5vw;
+margin-left: -12px;
+padding-left: 20px;
+}
+input[type="email"]{
+margin-left: 15vw;
+width: 57.5vw;
+height: 5vw;
+padding-left: 20px;
+}
+input[type="password"]{
+margin-left: 15vw;
+width: 57.5vw;
+height: 5vw;
+padding-left: 20px;
+}
+.cond{
+font-size: 8rem;
+margin-top: 20px;
+margin-left: 15vw;
+}
+.button{
+margin-top: 2vh;
+margin-left: 15vw;
+width: 60.5vw;
+height: 6vw;
+font-size: 15rem;
+}
+.con{
+margin-top: 10vh;
+width: 55vw;
+height: 38vh;
+margin-left: 18vw;
+border-radius: 5px;
+}
+.mescont{
+font-size: 10rem;
+}
+.cross{
+margin-left: 40vw;
+font-size: 18rem;
+margin-top: -8px;
+}
+.line{
+margin-top:8vh;
+}
+.content{
+font-size: 15rem;
+padding-top: 3vh;
+}
+.yes{
+margin-left: 35vw;
+margin-top: 3vh;
+}
+}
+@media only screen and (min-width: 425px) and (max-width: 725px) {
+.container{
+width: 95vw;
+height: 95vh;
+margin-left: 1vw;
+margin-top: 2vh;
+}
+.row{
+margin-top: 8vh;
+height: 9vh;
+}
+.face{
+margin-left: 10vw;
+width: 70vw;
+padding-top: 5px;
+font-size: 13px;
+font-weight: bolder;
+}
+.facebook{
+width: 3vw;
+height: 3vw;
+padding-top: 1vh;
+margin-left: 0vw;
+padding-right: 1vw;
+}
+.twit{
+width: 3vw;
+height: 3vw;
+padding-top: 1vh;
+margin-left: 0vw;
+padding-right: 1vw;
+}
+.twitter{
+margin-right: 8.5vw;
+margin-left: -5px;
+padding-top: 1vh;
+width: 70vw;
+font-weight: bolder;
+font-size: 13px;
+}
+.col{
+font-size: 12rem;
+padding-left: 35vw;
+padding-top: 10px;
+margin-bottom:-3vw;
+}
+input[type="firstname"]{
+margin-left: 10vw;
+width: 35.5vw;
+height: 6vw;
+padding-left: 8px;
+font-size: 10rem;
+}
+input[type="lastname"]{
+width: 35.5vw;
+height: 6vw;
+margin-left: -12px;
+padding-left: 8px;
+font-size: 10rem;
+}
+input[type="email"]{
+margin-left: 10vw;
+width: 73vw;
+height: 6vw;
+padding-left: 15px;
+}
+input[type="password"]{
+margin-left: 10vw;
+width: 73vw;
+height: 6vw;
+padding-left: 15px;
+}
+.cond{
+font-size: 7rem;
+margin-top: 15px;
+margin-left: 10vw;
+margin-bottom: -13px;
+}
+.button{
+margin-top: 0vh;
+margin-left: 10vw;
+width: 77vw;
+height: 7vw;
+font-size: 10rem;
+}
+.con{
+margin-top: 10vh;
+width: 70vw;
+height: 38vh;
+margin-left: 12vw;
+border-radius: 5px;
+}
+.mescont{
+font-size: 10rem;
+}
+.cross{
+margin-left: 46vw;
+font-size: 18rem;
+margin-top: -8px;
+}
+.line{
+margin-top:8vh;
+}
+.content{
+font-size: 15rem;
+padding-top: 3vh;
+}
+.yes{
+margin-left: 40vw;
+margin-top: 3vh;
+}
+}
+@media only screen and (max-width: 425px) {
+.container{
+width: 99%;
+height: 530px;
+margin-left: 0.5vw;
+margin-top: 0.5vh;
+}
+.row{
+margin-top: 8vh;
+height: 10vh;
+}
+.face{
+margin-left: 5vw;
+width: 70vw;
+padding-top: 5px;
+font-size: 13px;
+font-weight: bolder;
+}
+.twitter{
+margin-right: 5vw;
+margin-left: -5px;
+padding-top: 1vh;
+width: 70vw;
+font-weight: bolder;
+font-size: 13px;
+}
+.facebook{
+width: 4vw;
+height: 4vw;
+padding-top: 1vh;
+margin-left: 0vw;
+padding-right: 1vw;
+}
+.twit{
+width: 4vw;
+height: 4vw;
+padding-top: 1vh;
+margin-left: 0vw;
+padding-right: 1vw;
+}
+.col{
+font-size: 8rem;
+padding-left: 34vw;
+padding-top: 10px;
+margin-bottom:-3vw;
+}
+input[type="firstname"]{
+margin-left: 5vw;
+width: 37vw;
+height: 8vw;
+padding-left: 8px;
+font-size: 8rem;
+}
+input[type="lastname"]{
+width:37vw;
+height: 8vw;
+margin-left: -14px;
+padding-left: 8px;
+font-size: 8rem;
+}
+input[type="email"]{
+margin-left: 5vw;
+width: 77vw;
+height: 8vw;
+padding-left: 15px;
+font-size: 8rem;
+}
+input[type="password"]{
+margin-left: 5vw;
+width: 77vw;
+height: 8vw;
+padding-left: 15px;
+font-size: 8rem;
+}
+.cond{
+font-size: 8rem;
+margin-top: 10px;
+margin-left: 5vw;
+margin-bottom: -15px;
+}
+.button{
+margin-left: 5vw;
+width: 84vw;
+height: 10vw;
+font-size: 10rem;
+}
+.con{
+margin-top: 10vh;
+width: 70vw;
+height: 30vh;
+margin-left: 12vw;
+border-radius: 5px;
+}
+.mescont{
+font-size: 8rem;
+}
+.cross{
+margin-left: 40vw;
+font-size: 15rem;
+margin-top: -8px;
+}
+.line{
+margin-top:6vh;
+}
+.content{
+font-size: 10rem;
+padding-top: 3vh;
+}
+.yes{
+margin-left: 30vw;
+margin-top: 3vh;
+font-size: 8rem;
+border-radius: 3px;
+}
+.no{
+font-size: 8rem;
+border-radius: 3px;
+}
+}
